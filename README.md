@@ -18,6 +18,7 @@ The following resources were used to complete this analysis:
 ### Retiring Employees by Title 
 For this analysis, we created a file containing the number of retirement-age employees by job title.  To do this, we first joined the employees table containing a listing of all employees, to the titles table which contains a listing of titles by employee. Since the titles table contains all titles, both past and current held by an employee, we created a new table containing just the current title by employee.  We then created a summary table from that data containing number of retiring employees by job title.  The summary table, as well as the employee titles table and current title by employee table, were then exported as CSV files.
 
+![retiring_titles](https://github.com/adbauer06/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)
     
 ### Employees Eligible for Mentorship Program    
 For this analysis, we created a file listing employees eligible for the mentorship program.  To do this we selected all current employees who were born in the year 1965.  We joined to the employee_dept table to get the date they started in their current department and to the titles table to get their curent job title.  We created a new table called 'mentorship_eligibility', which was also exported to a CSV file.   
